@@ -9,7 +9,7 @@ import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
-import { API_ENDPOINT } from './Api';
+import { API_ENDPOINT } from './API';
 
 function Dashboard() {
     const [user, setUser] = useState(null); // Current logged-in user
